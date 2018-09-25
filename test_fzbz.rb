@@ -10,6 +10,9 @@ class My_test < Minitest::Test
 		assert_equal("mined",fzbz(3))
 	end
 	def test_for_minds
-		assert_equal(minds,fzbz(5))
+		assert_equal("minds",fzbz(5))
+	end
+	def test_for_minedminds
+		assert_equal("minedminds",fzbz(15))
 	end
 end

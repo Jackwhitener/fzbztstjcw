@@ -3,6 +3,10 @@ require_relative "fzbz.rb"
 class My_test < Minitest::Test
 
 	def test_for_3
-		assert_equal(true,divby3)
+		assert_equal(1,fzbz(1))
+	end
+
+	def test_for_mined
+		assert_equal("mined",fzbz(3))
 	end
 end

@@ -9,4 +9,7 @@ class My_test < Minitest::Test
 	def test_for_mined
 		assert_equal("mined",fzbz(3))
 	end
+	def test_for_minds
+		assert_equal(minds,fzbz(5))
+	end
 end

@@ -1,5 +1,9 @@
 def fzbz(number)
-	if number == 3
+	if number % 15 == 0
+		"minedminds"
+	elsif number % 5 == 0
+		"minds"
+	elsif number % 3 == 0
 		"mined"
 	else
 		number

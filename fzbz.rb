@@ -1,1 +1,3 @@
-def fzbz
+def divby3
+	true
+end
